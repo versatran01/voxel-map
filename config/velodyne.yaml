@@ -1,6 +1,6 @@
 common:
-    lid_topic:  "/velodyne_points"
-    imu_topic:  "/imu_data"
+    lid_topic:  "/os_cloud_node/points"
+    imu_topic:  "/os_cloud_node/imu"
 
 preprocess:
     lidar_type: 2                #1 for Livox serials LiDAR, 2 for Velodyne LiDAR, 3 for L515 LiDAR
